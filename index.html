@@ -125,28 +125,41 @@ $(document).ready(function() {
 
 	<div id="slide2">
 		<div class="content" >
-            <div class="specialText_container">
-		    <h3 class="specialTextA">hackMCST is the first 24-hour high school hackathon in the suburbs of Morris County founded by high school students to empower high school students.</h3>
-		  <p class="blockText">hackMCST empowers high school students with opportunities to build apps, video games, network, and expand their skills and grow as developers. </p>
-		<p class="blockText">No matter what age, skill, interest hackMCST has something for everyone! From talks to workshops we engage every hacker!</p>
-       
-                <p class="blockText"><b>The code of conduct that is upheld during hackMCST can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here </a>.</b></p>
-            
-            </div> 
-            <br><br>
+
         <div class="flex-container">
             <div class="flex-item"><img src="img/img1.JPG"></div>
             <div class="flex-item"><img src="img/img2.JPG"></div>
             <div class="flex-item"><img src="img/img3.JPG"></div>
             
             </div>
+            <br/><br/>
+
+            <div class="specialText_container">
+        <h3 class="specialTextA">hackMCST is the first 24-hour high school hackathon in the suburbs of Morris County founded by high school students to empower high school students.</h3>
+      <p class="blockText" >hackMCST empowers high school students with opportunities to build apps, video games, network, and expand their skills and grow as developers. </p>
+    <p class="blockText">No matter what age, skill, interest hackMCST has something for everyone! From talks to workshops we engage every hacker!</p>
+       
+                <p class="blockText" ><b>The code of conduct that is upheld during hackMCST can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" style="text-decoration: none;">here</a></b></p>
+            
+            </div> 
+            <br/><br/>
+
+        <div class="flex-container">
+            <div class="flex-item"><img src="img/img4.JPG"></div>
+            <div class="flex-item"><img src="img/img5.JPG"></div>
+            <div class="flex-item"><img src="img/img6.JPG"></div>
+            
+            </div>    
+            
+
+
 		</div> 
     </div> 
 
 
     <!--TIMER STARt-->
     <!-- Display the countdown timer in an element -->
-<p id="demo" style="text-align: center; background-color: black; color: white; padding: 100px;"></p>
+<p id="demo" style="text-align: center;font-size: 55px;background-color: black;color: white;padding: 100px;margin: none border: none;margin-bottom: 0px;margin-top: 0px;"></p>
 
 <script>
 // Set the date we're counting down to
@@ -168,8 +181,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
