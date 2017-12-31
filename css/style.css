@@ -64,10 +64,10 @@ p{
 }
 
 .blockText{
+    width: 730px;
+    font-size: 20px;
     text-align: center;
-    width: 450px;
-    font-size: 19px;
-    margin-left: 23%;
+
 }
 
 
@@ -190,7 +190,7 @@ a.rpanel:hover{ color: #fff; }
  font-family: 'Century Gothic', sans-serif;
    font-weight: normal;
    font-size: 30px;
-  text-align: left;
+  text-align: center;
  
 }
 .specialText a{
@@ -258,7 +258,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
-
 }
 
 #slide2{
@@ -267,7 +266,12 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: auto;
 	margin: 0 auto;
 	overflow: hidden;
-	padding:  110px 0 150px 0px;
+	padding:  0px 0 0px 0px;
+}
+
+#demo{
+    margin: none;
+    border: none;
 }
 
 #slide3{
@@ -450,22 +454,30 @@ mark{
 }
 
 .flex-container{
-    width: 100%;
+    width: 103%;
     display: flex;
-align-items: center;
-  justify-content: center;
-   
+    align-items: center;
+    justify-content: center; 
+    border:0;
+    padding:0;
+    margin: 0; 
+
 }
 
 .flex-item{
-     width: 350px;
-    height: 250px;
-    margin-right: 3%;
+     width: 537px;
+    height: 320px;
+    border:0;
+    padding:0;
+    margin: 0; 
 }
 
 .flex-item img{
-     width: 350px;
-    height: 250px;
+     width: 537px;
+    height: 320px;
+    margin: 0;
+    border: 0;
+    padding: 0;
     
 }
 
