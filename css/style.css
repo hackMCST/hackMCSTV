@@ -85,6 +85,7 @@ p{
 #lol td h4 {
     color:  #142234;
     font-size: 21px;
+    font-family:"Century Gothic";
 }
 
 
@@ -173,19 +174,18 @@ a.rpanel:hover{ color: #fff; }
    font-weight: normal;
    font-size: 50px;
   text-align: center;
-    color: white;
     text-decoration: none;
 
  
 }
 
+.specialText3 a{
+    color: #142234;
+}
 .specialText3 a:hover {   
- color: #142234;
+ color: white;
 }
 
-.specialText3 a{
-    color: white;
-}
 .specialTextA {   
  font-family: 'Century Gothic', sans-serif;
    font-weight: normal;
@@ -277,8 +277,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide3{
 	background-color:  #142234;
 	color: #fff;
-	height: 550px;
-	padding: 60px 0 0 0;	
+	height: 300px;
+	padding: 60px 0 60px 0;	
 	background-size: cover;
     border-top: none;
 }
