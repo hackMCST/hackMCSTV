@@ -131,7 +131,7 @@ a.rpanel:hover{ color: #fff; }
 	margin-top: 0px; /*15*/
 }
 
-#nav { width: 530px; float: right; margin-top: 20px; }
+#nav { width: 600px; float: right; margin-top: 20px; }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 23px; margin-top: 20px; color: #fff; font-family:"Century Gothic"; font-weight: bold; }
 #nav ul{
 	list-style: none;
